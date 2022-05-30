@@ -1,0 +1,72 @@
+how to installing in adding code segments
+ testing lasted in arcolinux system add commands 
+
+ developp 
+
+
+
+installing  docker in archlinux 
+
+
+lscpu  | grep "Virt"
+
+allow is VT-x
+
+
+
+continue --...
+
+
+sudo pacman -Sy docker 
+
+sudo systemctl enable docker 
+
+# alternative 
+
+
+sudo systemctl enable --now docker 
+
+
+#### enable service composer directive edition composer alt 
+
+sudo systemctl start docker 
+
+# restart sockets is problem or error 
+
+
+sudo docker run hello-world 
+
+
+# confirm sussesfully instalation
+
+docker pull ngix
+docker pull ubunto
+
+
+sudo docker run -d ngix 
+
+# sudo docker run  ubunto 
+
+
+sudo docker --help 
+
+composer run ubunto in virtual machine -**----- 
+
+
+
+
+
+# adding group (fix sudo docker )
+
+groupadd docker 
+
+
+sudo gpasswd -a $USER docker 
+
+# logauth session very confirm changeloads 
+
+docker run hello-world
+
+  
+
+
